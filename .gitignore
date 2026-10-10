@@ -22,3 +22,7 @@ check_*.py
 analyze_*.py
 compare_*.py
 make_demo_*.py
+
+# 旧环境备份
+.venv_old/
+report*.csv
