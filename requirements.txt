@@ -1,8 +1,0 @@
-guessit>=3.8.0
-pymediainfo>=6.0.0
-requests>=2.31.0
-
-# 可选（实验性 IMDb 直连，配合 --use-imdb）:
-# cinemagoer>=2023.5.1
-# 可选（生成测试视频用的 ffmpeg；本机已装 ffmpeg 则无需）:
-# imageio-ffmpeg

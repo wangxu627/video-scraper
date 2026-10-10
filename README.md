@@ -41,9 +41,7 @@ IMDb **没有官方公开 API**，中文别名（AKA）覆盖也很不全。业�
 
 ```powershell
 cd video-scraper
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
+uv sync   # 需先安装 uv；自动创建 .venv 并按 uv.lock 安装依赖
 ```
 
 - Windows：`pymediainfo` 的 wheel 自带 `MediaInfo.dll`，装完即用。
@@ -177,7 +175,8 @@ video-scraper/
 │   ├── output.py             # JSON/CSV/NFO/海报
 │   └── providers/            # tmdb / bgm / imdb_provider / cache
 ├── tests/                    # 测试媒体库生成 + 连通性自检
-└── requirements.txt
+├── pyproject.toml            # uv 项目定义
+└── uv.lock                   # 依赖锁定
 ```
 
 ## 类似的开源项目（参考）
