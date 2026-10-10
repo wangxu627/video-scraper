@@ -1,0 +1,24 @@
+﻿# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# 测试与演示数据
+tests/
+test_*/
+nas_demo/
+
+# 运行产物
+scan.json
+match*.json
+apply*.json
+all_*.json
+report*.json
+
+# 调试脚本
+debug_*.py
+verify_*.py
+check_*.py
+analyze_*.py
+compare_*.py
+make_demo_*.py
